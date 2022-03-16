@@ -98,7 +98,7 @@ nav.navigation {
 .navbar{
     background-color: rgb(53, 53, 53)!important;
 }
-ul{
+ul.navbar-nav li{
     list-style: none;
 }
 @media (min-width: 1050px){
@@ -112,6 +112,11 @@ ul{
     }
     ul.navbar-nav li{
         list-style: none;
+    }
+    footer a{
+        font-size: 100%;
+        padding: 10px;
+        margin: 10px;
     }
 }
 
@@ -128,10 +133,10 @@ a:hover {
 }
 
 h1 {
-    margin: 30px;
-    padding: 30px;
+    margin: 20px;
+    padding: 20px;
     text-align: center;
-    font-size: 500%;
+    font-size: 400%;
 }
 
 h2 {
@@ -158,7 +163,15 @@ iframe {
     iframe{
     border: solid black 2px;
     margin: 10px;
-    width: 100%;
+    width: 80%;
+    }
+    footer{
+        padding: 10px;
+    }
+    footer a{
+        font-size: 60%;
+        padding: 5px;
+        margin: 2px;
     }
 }
 
@@ -176,8 +189,8 @@ iframe {
 img {
     border: 2px solid black;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    height: auto;
+    width: 30%;
 }
 
 .founder {
@@ -189,20 +202,20 @@ h3 {
 }
 
 h4 {
-    margin: 0px 130px;
+    margin: 0px 20px;
     padding: 10px;
     font-size: 125%;
 }
 
 h5 {
-    margin: 0px 130px;
+    margin: 0px 20px;
     padding: 10px;
     font-size: 100%;
 }
 
 footer {
     margin: 0px;
-    padding: 50px;
+    padding: 20px;
     background-color: rgb(53, 53, 53);
 }
 
