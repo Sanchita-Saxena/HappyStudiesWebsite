@@ -173,6 +173,11 @@ iframe {
         padding: 5px;
         margin: 2px;
     }
+    div a{
+        font-size: 16px;
+        padding: 2px;
+        margin: 2px;
+    }
 }
 
 .notes,
