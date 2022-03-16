@@ -164,6 +164,12 @@ iframe {
     border: solid black 2px;
     margin: 10px;
     width: 80%;
+}
+div a{
+    font-size: 16px;
+    padding: 2px;
+    margin: 2px;
+}
     }
     footer{
         padding: 10px;
@@ -172,12 +178,6 @@ iframe {
         font-size: 60%;
         padding: 5px;
         margin: 2px;
-    }
-    div a{
-        font-size: 16px;
-        padding: 2px;
-        margin: 2px;
-    }
 }
 
 .notes,
